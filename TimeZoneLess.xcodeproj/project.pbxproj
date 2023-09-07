@@ -99,6 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				12BC2DC42AAA4716007ADFCD /* TimeZoneLessApp.swift */,
+				12BC2DF62AAA489D007ADFCD /* Domain */,
+				12BC2DF52AAA4896007ADFCD /* Presentation */,
+				12BC2DF42AAA4891007ADFCD /* Data */,
+				12BC2DF32AAA487F007ADFCD /* Support */,
 				12BC2DC62AAA4716007ADFCD /* ContentView.swift */,
 				12BC2DC82AAA4717007ADFCD /* Assets.xcassets */,
 				12BC2DCD2AAA4717007ADFCD /* Persistence.swift */,
@@ -131,6 +135,42 @@
 				12BC2DE62AAA4717007ADFCD /* TimeZoneLessUITestsLaunchTests.swift */,
 			);
 			path = TimeZoneLessUITests;
+			sourceTree = "<group>";
+		};
+		12BC2DF32AAA487F007ADFCD /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				12BC2DF72AAA48B0007ADFCD /* Extensions */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		12BC2DF42AAA4891007ADFCD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		12BC2DF52AAA4896007ADFCD /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		12BC2DF62AAA489D007ADFCD /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		12BC2DF72AAA48B0007ADFCD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
