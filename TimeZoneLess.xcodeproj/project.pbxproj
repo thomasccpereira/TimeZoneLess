@@ -16,6 +16,8 @@
 		12BC2DDB2AAA4717007ADFCD /* TimeZoneLessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DDA2AAA4717007ADFCD /* TimeZoneLessTests.swift */; };
 		12BC2DE52AAA4717007ADFCD /* TimeZoneLessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DE42AAA4717007ADFCD /* TimeZoneLessUITests.swift */; };
 		12BC2DE72AAA4717007ADFCD /* TimeZoneLessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DE62AAA4717007ADFCD /* TimeZoneLessUITestsLaunchTests.swift */; };
+		12BC2DF92AAA48DC007ADFCD /* NSLocale+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DF82AAA48DC007ADFCD /* NSLocale+Extension.swift */; };
+		12BC2DFB2AAA4AC8007ADFCD /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DFA2AAA4AC8007ADFCD /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		12BC2DE02AAA4717007ADFCD /* TimeZoneLessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeZoneLessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BC2DE42AAA4717007ADFCD /* TimeZoneLessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneLessUITests.swift; sourceTree = "<group>"; };
 		12BC2DE62AAA4717007ADFCD /* TimeZoneLessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneLessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12BC2DF82AAA48DC007ADFCD /* NSLocale+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLocale+Extension.swift"; sourceTree = "<group>"; };
+		12BC2DFA2AAA4AC8007ADFCD /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 		12BC2DF72AAA48B0007ADFCD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				12BC2DF82AAA48DC007ADFCD /* NSLocale+Extension.swift */,
+				12BC2DFA2AAA4AC8007ADFCD /* String+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -304,8 +310,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				12BC2DCE2AAA4717007ADFCD /* Persistence.swift in Sources */,
+				12BC2DFB2AAA4AC8007ADFCD /* String+Extension.swift in Sources */,
 				12BC2DC72AAA4716007ADFCD /* ContentView.swift in Sources */,
 				12BC2DC52AAA4716007ADFCD /* TimeZoneLessApp.swift in Sources */,
+				12BC2DF92AAA48DC007ADFCD /* NSLocale+Extension.swift in Sources */,
 				12BC2DD12AAA4717007ADFCD /* TimeZoneLess.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
