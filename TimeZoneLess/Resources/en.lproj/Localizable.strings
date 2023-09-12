@@ -1,0 +1,10 @@
+/*
+ Localizable.strings
+ TimeZoneLess
+ 
+ Created by Thomás Pereira on 12/09/2023.
+ */
+
+"home_navigation_title" = "What time is it there?";
+"home_current_place" = "I'm here";
+"home_other_places" = "More time zones";
