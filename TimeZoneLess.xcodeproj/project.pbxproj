@@ -77,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		124055D42AB06A5700E2EBF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12BC2DC82AAA4717007ADFCD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		12BC2DB82AAA4716007ADFCD = {
 			isa = PBXGroup;
 			children = (
@@ -106,7 +114,7 @@
 				12BC2DF42AAA4891007ADFCD /* Data */,
 				12BC2DF32AAA487F007ADFCD /* Support */,
 				12BC2DC62AAA4716007ADFCD /* ContentView.swift */,
-				12BC2DC82AAA4717007ADFCD /* Assets.xcassets */,
+				124055D42AB06A5700E2EBF6 /* Resources */,
 				12BC2DCD2AAA4717007ADFCD /* Persistence.swift */,
 				12BC2DCF2AAA4717007ADFCD /* TimeZoneLess.xcdatamodeld */,
 			);
