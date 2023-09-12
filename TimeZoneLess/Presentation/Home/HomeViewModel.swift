@@ -19,7 +19,16 @@ final class HomeViewModel: ObservableObject, Identifiable {
 
 // MARK: - Layout
 extension HomeViewModel {
+   
    var navigationTitle: String {
       "home_navigation_title".localized()
+   }
+   
+   var currentPlaceSectionTitle: String {
+      "home_current_place".localized()
+   }
+   
+   var moreTimeZonesSectionTitle: String {
+      "home_more_time_zones".localized()
    }
 }
