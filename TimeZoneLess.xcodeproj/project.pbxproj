@@ -12,6 +12,7 @@
 		124055D02AB0688300E2EBF6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124055CF2AB0688300E2EBF6 /* HomeViewModel.swift */; };
 		124055D22AB0688E00E2EBF6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124055D12AB0688E00E2EBF6 /* HomeView.swift */; };
 		124055D72AB06A8F00E2EBF6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 124055D92AB06A8F00E2EBF6 /* Localizable.strings */; };
+		124055DC2AB074DE00E2EBF6 /* CountriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124055DB2AB074DE00E2EBF6 /* CountriesList.swift */; };
 		12BC2DC52AAA4716007ADFCD /* TimeZoneLessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DC42AAA4716007ADFCD /* TimeZoneLessApp.swift */; };
 		12BC2DC92AAA4717007ADFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BC2DC82AAA4717007ADFCD /* Assets.xcassets */; };
 		12BC2DCE2AAA4717007ADFCD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DCD2AAA4717007ADFCD /* Persistence.swift */; };
@@ -47,6 +48,7 @@
 		124055D12AB0688E00E2EBF6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		124055D82AB06A8F00E2EBF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		124055DA2AB06D7600E2EBF6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		124055DB2AB074DE00E2EBF6 /* CountriesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesList.swift; sourceTree = "<group>"; };
 		12BC2DC12AAA4716007ADFCD /* TimeZoneLess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeZoneLess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BC2DC42AAA4716007ADFCD /* TimeZoneLessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneLessApp.swift; sourceTree = "<group>"; };
 		12BC2DC82AAA4717007ADFCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +106,14 @@
 				124055D92AB06A8F00E2EBF6 /* Localizable.strings */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		124055DD2AB074E300E2EBF6 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				124055DB2AB074DE00E2EBF6 /* CountriesList.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		12BC2DB82AAA4716007ADFCD = {
@@ -184,6 +194,7 @@
 		12BC2DF62AAA489D007ADFCD /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				124055DD2AB074E300E2EBF6 /* Entities */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -328,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				124055DC2AB074DE00E2EBF6 /* CountriesList.swift in Sources */,
 				12BC2DCE2AAA4717007ADFCD /* Persistence.swift in Sources */,
 				124055D22AB0688E00E2EBF6 /* HomeView.swift in Sources */,
 				12BC2DFB2AAA4AC8007ADFCD /* String+Extension.swift in Sources */,

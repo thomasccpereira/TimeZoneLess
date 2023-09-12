@@ -9,14 +9,15 @@ import Foundation
 
 extension NSLocale {
    
-   typealias LocaleCountry = (flag: String, name: String)
-   static var allLocales: [LocaleCountry] {
-      isoCountryCodes.compactMap({ isoCountryCode in
+   static var allLocales: CountriesList {
+      let countries = isoCountryCodes.compactMap({ isoCountryCode -> CountriesList.Country? in
          let isoCountryID = NSLocale.localeIdentifier(fromComponents: [NSLocale.Key.countryCode.rawValue: isoCountryCode])
          guard let countryFlag = String.flag(for: isoCountryCode),
                let countryName = NSLocale(localeIdentifier: NSLocale.current.identifier).displayName(forKey: NSLocale.Key.identifier, value: isoCountryID) else { return nil }
          
-         return LocaleCountry(flag: countryFlag, name: countryName)
+         return CountriesList.Country(isoID: isoCountryID, flag: countryFlag, name: countryName)
       })
+      
+      return CountriesList(countries: countries)
    }
 }
