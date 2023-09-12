@@ -26,4 +26,8 @@ extension String {
       let indicatorSymbols = lowercasedCode.unicodeScalars.map({ regionalIndicatorSymbol(for: $0) })
       return String(indicatorSymbols.map({ Character($0) }))
    }
+   
+   func localized(withComment comment: String? = nil) -> String {
+      return NSLocalizedString(self, comment: comment ?? "")
+   }
 }

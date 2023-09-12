@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		124055CC2AB0686B00E2EBF6 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124055CB2AB0686B00E2EBF6 /* HomeCoordinator.swift */; };
+		124055CE2AB0687700E2EBF6 /* HomeCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124055CD2AB0687700E2EBF6 /* HomeCoordinatorView.swift */; };
+		124055D02AB0688300E2EBF6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124055CF2AB0688300E2EBF6 /* HomeViewModel.swift */; };
+		124055D22AB0688E00E2EBF6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124055D12AB0688E00E2EBF6 /* HomeView.swift */; };
 		124055D72AB06A8F00E2EBF6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 124055D92AB06A8F00E2EBF6 /* Localizable.strings */; };
 		12BC2DC52AAA4716007ADFCD /* TimeZoneLessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DC42AAA4716007ADFCD /* TimeZoneLessApp.swift */; };
 		12BC2DC92AAA4717007ADFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BC2DC82AAA4717007ADFCD /* Assets.xcassets */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		124055CB2AB0686B00E2EBF6 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		124055CD2AB0687700E2EBF6 /* HomeCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorView.swift; sourceTree = "<group>"; };
+		124055CF2AB0688300E2EBF6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		124055D12AB0688E00E2EBF6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		124055D82AB06A8F00E2EBF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		124055DA2AB06D7600E2EBF6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		12BC2DC12AAA4716007ADFCD /* TimeZoneLess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeZoneLess.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		124055CA2AB0684E00E2EBF6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				124055CB2AB0686B00E2EBF6 /* HomeCoordinator.swift */,
+				124055CD2AB0687700E2EBF6 /* HomeCoordinatorView.swift */,
+				124055CF2AB0688300E2EBF6 /* HomeViewModel.swift */,
+				124055D12AB0688E00E2EBF6 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		124055D42AB06A5700E2EBF6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +176,7 @@
 		12BC2DF52AAA4896007ADFCD /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				124055CA2AB0684E00E2EBF6 /* Home */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -309,10 +329,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				12BC2DCE2AAA4717007ADFCD /* Persistence.swift in Sources */,
+				124055D22AB0688E00E2EBF6 /* HomeView.swift in Sources */,
 				12BC2DFB2AAA4AC8007ADFCD /* String+Extension.swift in Sources */,
+				124055CE2AB0687700E2EBF6 /* HomeCoordinatorView.swift in Sources */,
 				12BC2DC52AAA4716007ADFCD /* TimeZoneLessApp.swift in Sources */,
+				124055D02AB0688300E2EBF6 /* HomeViewModel.swift in Sources */,
 				12BC2DF92AAA48DC007ADFCD /* NSLocale+Extension.swift in Sources */,
 				12BC2DD12AAA4717007ADFCD /* TimeZoneLess.xcdatamodeld in Sources */,
+				124055CC2AB0686B00E2EBF6 /* HomeCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
