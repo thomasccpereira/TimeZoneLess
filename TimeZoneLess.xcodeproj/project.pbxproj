@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		124055D72AB06A8F00E2EBF6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 124055D92AB06A8F00E2EBF6 /* Localizable.strings */; };
 		12BC2DC52AAA4716007ADFCD /* TimeZoneLessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DC42AAA4716007ADFCD /* TimeZoneLessApp.swift */; };
-		12BC2DC72AAA4716007ADFCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DC62AAA4716007ADFCD /* ContentView.swift */; };
 		12BC2DC92AAA4717007ADFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BC2DC82AAA4717007ADFCD /* Assets.xcassets */; };
 		12BC2DCE2AAA4717007ADFCD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DCD2AAA4717007ADFCD /* Persistence.swift */; };
 		12BC2DD12AAA4717007ADFCD /* TimeZoneLess.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DCF2AAA4717007ADFCD /* TimeZoneLess.xcdatamodeld */; };
@@ -42,7 +41,6 @@
 		124055DA2AB06D7600E2EBF6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		12BC2DC12AAA4716007ADFCD /* TimeZoneLess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeZoneLess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BC2DC42AAA4716007ADFCD /* TimeZoneLessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneLessApp.swift; sourceTree = "<group>"; };
-		12BC2DC62AAA4716007ADFCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12BC2DC82AAA4717007ADFCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12BC2DCD2AAA4717007ADFCD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		12BC2DD02AAA4717007ADFCD /* TimeZoneLess.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeZoneLess.xcdatamodel; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 				12BC2DF52AAA4896007ADFCD /* Presentation */,
 				12BC2DF42AAA4891007ADFCD /* Data */,
 				12BC2DF32AAA487F007ADFCD /* Support */,
-				12BC2DC62AAA4716007ADFCD /* ContentView.swift */,
 				124055D42AB06A5700E2EBF6 /* Resources */,
 				12BC2DCD2AAA4717007ADFCD /* Persistence.swift */,
 				12BC2DCF2AAA4717007ADFCD /* TimeZoneLess.xcdatamodeld */,
@@ -313,7 +310,6 @@
 			files = (
 				12BC2DCE2AAA4717007ADFCD /* Persistence.swift in Sources */,
 				12BC2DFB2AAA4AC8007ADFCD /* String+Extension.swift in Sources */,
-				12BC2DC72AAA4716007ADFCD /* ContentView.swift in Sources */,
 				12BC2DC52AAA4716007ADFCD /* TimeZoneLessApp.swift in Sources */,
 				12BC2DF92AAA48DC007ADFCD /* NSLocale+Extension.swift in Sources */,
 				12BC2DD12AAA4717007ADFCD /* TimeZoneLess.xcdatamodeld in Sources */,
