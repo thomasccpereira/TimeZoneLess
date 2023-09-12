@@ -10,7 +10,6 @@
 		12BC2DC52AAA4716007ADFCD /* TimeZoneLessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DC42AAA4716007ADFCD /* TimeZoneLessApp.swift */; };
 		12BC2DC72AAA4716007ADFCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DC62AAA4716007ADFCD /* ContentView.swift */; };
 		12BC2DC92AAA4717007ADFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BC2DC82AAA4717007ADFCD /* Assets.xcassets */; };
-		12BC2DCC2AAA4717007ADFCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BC2DCB2AAA4717007ADFCD /* Preview Assets.xcassets */; };
 		12BC2DCE2AAA4717007ADFCD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DCD2AAA4717007ADFCD /* Persistence.swift */; };
 		12BC2DD12AAA4717007ADFCD /* TimeZoneLess.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DCF2AAA4717007ADFCD /* TimeZoneLess.xcdatamodeld */; };
 		12BC2DDB2AAA4717007ADFCD /* TimeZoneLessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC2DDA2AAA4717007ADFCD /* TimeZoneLessTests.swift */; };
@@ -42,7 +41,6 @@
 		12BC2DC42AAA4716007ADFCD /* TimeZoneLessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneLessApp.swift; sourceTree = "<group>"; };
 		12BC2DC62AAA4716007ADFCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12BC2DC82AAA4717007ADFCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		12BC2DCB2AAA4717007ADFCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12BC2DCD2AAA4717007ADFCD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		12BC2DD02AAA4717007ADFCD /* TimeZoneLess.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeZoneLess.xcdatamodel; sourceTree = "<group>"; };
 		12BC2DD62AAA4717007ADFCD /* TimeZoneLessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeZoneLessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,17 +109,8 @@
 				12BC2DC82AAA4717007ADFCD /* Assets.xcassets */,
 				12BC2DCD2AAA4717007ADFCD /* Persistence.swift */,
 				12BC2DCF2AAA4717007ADFCD /* TimeZoneLess.xcdatamodeld */,
-				12BC2DCA2AAA4717007ADFCD /* Preview Content */,
 			);
 			path = TimeZoneLess;
-			sourceTree = "<group>";
-		};
-		12BC2DCA2AAA4717007ADFCD /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				12BC2DCB2AAA4717007ADFCD /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		12BC2DD92AAA4717007ADFCD /* TimeZoneLessTests */ = {
@@ -283,7 +272,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12BC2DCC2AAA4717007ADFCD /* Preview Assets.xcassets in Resources */,
 				12BC2DC92AAA4717007ADFCD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,7 +460,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TimeZoneLess/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 6NW28QCL54;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -501,7 +489,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TimeZoneLess/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 6NW28QCL54;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
